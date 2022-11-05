@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body{
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+.tudo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+.img-bottom{
+  width: 140%;
+  height: 100%;
+}
+.img-top{
+  width: 100%;
+  height: 100%;
+}
+
+.containers{
+  padding: 20px;
+}
+.title h1{
+  color: #6C63FF;
+  font-size: 45px;
+  margin-top: 40px;
+}
+.clockdiv{
+  display: flex;
+  max-width: auto;
+
+}
+.data-hora{
+  display: block;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  
+}
+.smalltext{
+  color:#C8C8C8 ;
+  position: fixed;
+  padding:  0px 0px 0px 32px;
+}
+.ponto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ponto p{
+  margin-top: 30px;
+  font-size: 70px;
+  margin-left: 25px;
+  color: #4D4C59;
+}
+span{
+  margin-top: 40px;
+  font-size: 90px;
+  color: #4D4C59;
+}
+
+.parte-final{
+  text-align: center;
+  color: #9C9AB6;
+}
+.parte-final p{
+  margin-bottom: 40px;
+  
+}
+.parte-final button{
+  background: #6C63FF;
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  padding: 10px 25px 10px 25px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
